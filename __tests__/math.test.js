@@ -1,8 +1,8 @@
 // Importando Funções
-const {sum} = require('./src/math.js');
-const {sub} = require('./src/math.js');
-const {mult} = require('./src/math.js');
-const {div} = require('./src/math.js');
+const {sum} = require('../src/math.js');
+const {sub} = require('../src/math.js');
+const {mult} = require('../src/math.js');
+const {div} = require('../src/math.js');
 
 describe('Funções matemáticas', ()=>{
     beforeAll(()=>{
