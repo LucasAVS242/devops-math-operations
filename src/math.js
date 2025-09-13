@@ -1,31 +1,30 @@
 // Função Soma
-const sum = (a,b)=>{
+function sum (a,b){
     return a + b;
 }
 
-module.exports = {sum};
-
 // Função Subtração
-const sub = (a,b)=>{
+function sub (a,b){
     return a - b;
 }
 
-module.exports = {sub};
-
 // Função Multiplicação
-const mult = (a,b)=>{
+function mult (a,b){
     return a * b;
 }
 
-module.exports = {mult};
-
 // Função Divisão
-const div = (a,b)=>{
-    d = a / b;
-    if (d == 0) {
+function div (a,b){
+    if (b === 0) {
         return "Não existe divisão por zero!";
     }
+    const d = a / b;
     return d;
 }
 
-module.exports = {div};
+module.exports = {
+    sum,
+    sub,
+    mult,
+    div
+};
